@@ -14,7 +14,7 @@ intro = """
 ██║░░██║██║░░██║
 ╚═╝░░╚═╝╚═╝░░╚═╝
     Hide Hate
-Oculata La Información
+Oculta La Información
 Dentro De Imagenes
 Guarda Tu Odio
 En Ellas 7w7
@@ -68,6 +68,6 @@ def main():
         elif selected == "3":
             exit()
         else:
-            print(colored("Comando desconocido", "red"))
+            print(colored("\nComando desconocido!\n", "red"))
 if __name__ == '__main__':
     main()
